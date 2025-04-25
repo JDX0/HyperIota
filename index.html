@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.png">
+    <title>Hyper-ιota</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Syne:wght@400..800&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            font-family: 'Syne', sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .logo-container {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .hyper {
+            font-weight: 800;
+            color: white;
+            font-size: clamp(3rem, 9vw, 9rem);
+        }
+        
+        .iota {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-25%);
+            color: red;
+            mix-blend-mode: difference;
+            font-weight: 700;
+            font-size: clamp(3rem, 9vw, 9rem);
+        }
+        
+        .tagline {
+            font-weight: 500;
+            font-size: clamp(0.7rem, 1.4vw, 1.1rem);
+            letter-spacing: 0.2em;
+            color: white;
+            margin-top: 2rem;
+            max-width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <div class="hyper">Hyper</div>
+            <div class="iota">ιota</div>
+        </div>
+        <div class="tagline">Elevating reality through constellations of infinitesimal improvements.</div>
+    </div>
+</body>
+</html>
